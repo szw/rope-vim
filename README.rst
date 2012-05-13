@@ -42,6 +42,7 @@ or
 Note, you can have both: default python omnicompletion and rope completion together:
 
     autocmd FileType python set omnifunc=pythoncomplete#Complete
+
     autocmd FileType python setlocal completefunc=RopeCompleteFunc
 
 
