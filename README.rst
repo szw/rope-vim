@@ -10,7 +10,7 @@ Also this plugin add vim help with rope commands.
 
 This fork contains embedded rope-omni_ plugin created by Ryan Wooden. 
 It allows you to setup rope completion as 
-usercomplete/omnicomplete function in Vim.
+a usercomplete/omnicomplete function in Vim.
 
 Installation
 ------------
@@ -39,7 +39,7 @@ or
     
     autocmd FileType python setlocal completefunc=RopeCompleteFunc 
 
-Note, you can have both: default python omnicompletion and rope completion together:
+Note, you can have both: the default python omnicompletion and rope completion together:
 
     autocmd FileType python set omnifunc=pythoncomplete#Complete
 
