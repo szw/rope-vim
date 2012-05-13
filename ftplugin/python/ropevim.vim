@@ -3,9 +3,9 @@
 if !exists("g:ropevim_loaded")
 python << EOF
 import sys, vim
+sys.path.append(vim.eval("expand('<sfile>:p:h')")  + '/libs/')
 import ropevim
 import ropemode.interface
-sys.path.append(vim.eval("expand('<sfile>:p:h')")  + '/libs/')
 
 class RopeOmniCompleter(object):
     """ The class used to complete python code. 
